@@ -1,0 +1,410 @@
+@media (max-width: 1440px) {
+
+  .settings {
+    width: calc(80px + (300 - 80) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .task_message {
+    width: calc(200px + (600 - 200) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .player {
+    margin-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1440 - 320)));
+    font-size: calc(11px + (16 - 11) * ((100vw - 320px) / (1440 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .player-duration_wrapper {
+    width: calc(100px + (180 - 100) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+
+  .player-volume_wrapper {
+    width: calc(80px + (100 - 80) * ((100vw - 320px) / (1440 - 320)));
+    margin-left: calc(22px + (55 - 22) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .player-volume_pic {
+    width: calc(20px + (35 - 20) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(20px + (35 - 20) * ((100vw - 320px) / (1440 - 320)));
+    left: calc(-20px + (-40 + 20) * ((100vw - 320px) / (1440 - 320)));
+    top: calc(-5px + (-11 + 5) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .player-controls {
+    min-width: calc(80px + (140 - 80) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .player-icon {
+    width: calc(24px + (32 - 24) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(24px + (32 - 24) * ((100vw - 320px) / (1440 - 320)));
+    background-size: calc(24px + (32 - 24) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .settings-button {
+    width: calc(25px + (50 - 25) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(25px + (50 - 25) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .weather {
+    width: calc(130px + (250 - 116) * ((100vw - 320px) / (1440 - 320)));
+    margin-right: calc(5px + (40 - 5) * ((100vw - 320px) / (1440 - 320)));
+    font-size: calc(11px + (16 - 11) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .time {
+    font-size: calc(40px + (100 - 40) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .settings-menu {
+    min-width: calc(210px + (280 - 230) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(170px + (240 - 170) * ((100vw - 320px) / (1440 - 320)));
+    margin-top: calc(100px + (40 - 100) * ((100vw - 320px) / (1440 - 320)));
+    font-size: calc(16px + (26 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .settings-language {
+    padding-top: calc(15px + (40 - 15) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .settings-language-menu {
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1440 - 320)));
+    top: calc(0px + (25 - 0) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(40px + (60 - 40) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+
+  .settings-language-menu::before {
+    display: none;
+  }
+
+
+  .settings-language-active {
+    right: calc(-105px + (-225 - (-120)) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .visibles-menu {
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .visibles-menu-wrapper {
+    height: calc(235px + (280 - 235) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .visibles-active {
+    right: -227px;
+    visibility: visible;
+    transition: 1s;
+    opacity: 1;
+  }
+
+  .visibles-menu-wrapper::before {
+    display: none;
+  }
+
+
+  .background-menu label {
+    font-size: calc(16px + (25 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .background-menu-wrapper {
+    width: calc(160px + (280 - 160) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(240px + (300 - 240) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .background-menu-wrapper::before {
+    display: none;
+  }
+
+  .background-menu-active {
+    right: calc(-185px + (-315 - -220) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .background-tags_title {
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .background-tag {
+    font-size: calc(11px + (16 - 11) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(45px + (60 - 45) * ((100vw - 320px) / (1440 - 320)));
+  }
+}
+
+
+
+
+@media (max-width: 1213px) {
+
+  .todo_list_wrapper {
+    top: 110px;
+    width: calc(350px + (700 - 500) * ((100vw - 320px) / (1213 - 320)));
+  }
+
+  .todo_list_container {
+
+    width: calc(350px + (700 - 500) * ((100vw - 320px) / (1213 - 320)));
+  }
+
+
+  .new_tasks_list {
+    margin-top: 0;
+  }
+
+  .todo_closed {
+    right: calc(15px + (30 - 15) * ((100vw - 320px) / (900 - 320)));
+
+  }
+
+  .todo_list_number {
+    right: calc(-10px + (30 - 10) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .task {
+    height: calc(27px + (33 - 27) * ((100vw - 320px) / (1213 - 320)));
+    padding-top: 0px;
+  }
+
+  .new_task_text {
+    font-size: 15px;
+
+  }
+
+  .main {
+    padding-top: 100px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .play-list {
+    width: calc(300px + (400 - 300) * ((100vw - 320px) / (900 - 320)));
+    height: 100px;
+    margin-left: calc(-5px + (200 - (-5)) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .city {
+    font-size: calc(13px + (20 - 13) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .change-quote {
+    margin-bottom: calc(5px + (30 - 5) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .information {
+    opacity: 0.25;
+    z-index: 0;
+  }
+
+  .todo_list_wrapper {
+    top: 350px;
+  }
+
+
+  .play-item {
+    width: 50%;
+  }
+
+  .main {
+    margin: 100px auto 0;
+    height: 30vh;
+  }
+
+  .time {
+    min-height: 50px;
+    height: 50px;
+  }
+
+  .date {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (900 - 320)));
+    margin-top: calc(-15px + (40 - 0) * ((100vw - 320px) / (900 - 320)));
+    margin-bottom: 0;
+    min-height: calc(14px + (28 - 14) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .greeting-container {
+    font-size: calc(17px + (30 - 17) * ((100vw - 320px) / (900 - 320)));
+    padding-left: calc(0px + (100 - 0) * ((100vw - 320px) / (900 - 320)));
+    min-height: calc(20px + (48 - 20) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .name {
+    font-size: calc(17px + (30 - 17) * ((100vw - 320px) / (900 - 320)));
+    width: 50px;
+    padding-left: calc(0px + (10 - 0) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .slider-icon {
+    top: 60%;
+  }
+
+  .footer {
+    padding-top: calc(0px + (20 - 0) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .quote {
+    font-size: calc(11px + (16 - 11) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .author {
+    font-size: calc(11px + (16 - 11) * ((100vw - 320px) / (900 - 320)));
+  }
+}
+
+
+
+@media (max-width: 850px) {
+
+
+  .todo_list_container h1 {
+    font-size: calc(22px + (30 - 24) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .new_task_text {
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .new_task_text {
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .btn_close_todo {
+    width: calc(20px + (30 - 20) * ((100vw - 320px) / (900 - 320)));
+    height: calc(20px + (30 - 20) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .task_checkbox {
+    width: calc(15px + (25 - 15) * ((100vw - 320px) / (900 - 320)));
+    height: calc(15px + (25 - 15) * ((100vw - 320px) / (900 - 320)));
+    left: calc(-25px + (-50 - -25) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  .task_delete {
+    font-size: calc(13px + (20 - 13) * ((100vw - 320px) / (900 - 320)));
+    top: calc(5px + (10 - 5) * ((100vw - 320px) / (900 - 320)));
+  }
+}
+
+
+@media (max-width: 400px) {
+  .todo_list_wrapper {
+    width: 98%;
+    left: 0;
+  }
+
+  .todo_list_container {
+    width: 100%;
+    left: 0;
+  }
+
+  .todo_list_number {
+    right: -2px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .task_message {
+    height: 20px;
+  }
+
+  .task_btn_add {
+    width: 100px;
+    height: 15px;
+    line-height: 0;
+  }
+
+  .task_btn_add {
+    width: 100px;
+    height: 15px;
+    line-height: 0;
+  }
+
+  .task_checkbox {
+    width: 13px;
+    height: 13px;
+  }
+
+  .task_delete {
+    width: 13px;
+    height: 13px;
+  }
+
+  .new_tasks_list .completed {
+    margin-top: 21px
+  }
+
+  .task {
+    margin-bottom: 0px;
+
+  }
+
+  .new_tasks_list li {
+    margin-top: 2px;
+  }
+
+  .information {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .slide-next {
+    margin-right: 25px;
+  }
+}
+
+
+
+
+@media (max-height: 700px) {
+
+  .footer {
+    height: calc(10vh + (30 - 10) * ((100vw - 320px) / (900 - 320)));
+    justify-content: center;
+    min-height: calc(120px + (160 - 120) * ((100vw - 320px) / (900 - 320)));
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  .task_message {
+    height: 20px;
+  }
+
+  .task_btn_add {
+    width: 100px;
+    height: 15px;
+    line-height: 0;
+  }
+
+  .task_checkbox {
+    width: 13px;
+    height: 13px;
+  }
+
+  .task_delete {
+    width: 13px;
+    height: 13px;
+  }
+
+  .new_tasks_list .completed {
+    margin-top: 21px
+  }
+
+  .task {
+    margin-bottom: 0px;
+  }
+
+  .new_tasks_list li {
+    margin-top: 2px;
+  }
+
+  .information {
+    bottom: 20px;
+  }
+}
